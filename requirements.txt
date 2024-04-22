@@ -1,0 +1,11 @@
+rich
+requests
+pyfiglet
+threading 
+platform
+psutil
+scapy
+colorama
+ping3
+pytube
+selenium
