@@ -76,15 +76,6 @@ NetMon For Android (Termux Version)
 logging.basicConfig(level=logging.INFO)
 coloredlogs.install(level="INFO")
 
-
-def display_markdown(file_path):
-    with open(file_path, "r") as md_file:
-        markdown = Markdown(md_file.read())
-
-    console = Console()
-    console.print(markdown)
-
-
 # Use the function
 
 # Importing Required Modules..
@@ -148,11 +139,6 @@ def banner():
     )
     fit_description = Text(description, justify="center", style="bold green")
     console.print(fit_description)
-
-
-
-display_markdown("./description.md")
-
 
 commands = [
     "help",
